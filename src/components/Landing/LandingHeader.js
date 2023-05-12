@@ -1,0 +1,17 @@
+import React from 'react'
+
+export default function LandingHeader() {
+  return (
+    <nav className="border-b border-black h-16 align-bottom flex items-center justify-center">
+      <div className="flex justify-between items-right w-1/2">
+        <p  className="text-gray-700 px-3 py-2 text-sm font-medium font-poppins text-xl">Srijay Mundlur</p>
+        <div className="flex space-x-4 ">
+          <a href="/" className="text-gray-700 hover:text-gray-300 px-3 py-2 text-sm font-medium font-poppins flex justify-center items-center text-lg">GitHub</a>
+          <a href="/" className="text-gray-700 hover:text-gray-300 px-3 py-2 text-sm font-medium font-poppins flex justify-center items-center text-lg">LinkedIn</a>
+          <a href="/" className="text-gray-700 hover:text-gray-300 px-3 py-2 text-sm font-medium font-poppins flex justify-center items-center text-lg">Resume</a>
+        </div>
+        
+      </div>
+    </nav>
+  )
+}
