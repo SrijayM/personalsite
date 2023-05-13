@@ -9,6 +9,11 @@ export { default as react } from "./react.png";
 export { default as tailwind } from "./tailwind.png";
 export { default as python} from "./python.png";
 export { default as matlab } from "./matlab.png";
+export { default as pintrest } from "./pintrest.png";
+export { default as snake } from "./snake.png";
+export { default as gunter } from "./gunter.png";
+
+
 
 
 

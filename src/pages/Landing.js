@@ -7,6 +7,8 @@ export default function Landing() {
       <LandingHeader/>
       <LandingIntro/>
       <LandingSkills/>
+      <LandingProjects/>
+      <LandingWork/>
     </div>
   )
 }
