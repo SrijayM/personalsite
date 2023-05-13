@@ -6,7 +6,7 @@ export default function LandingIntro() {
         <div className='flex justify-center items-center'>
             <div className='max-w-lg '>
                 <h1 className='text-4xl font-bold mb-2'>Hello, I am Srijay Mundlur</h1>
-                <p>I am a second year Mechatronics student at the University of Waterloo interested in a career in fullstack development.</p>
+                <p>I am a second year Mechatronics Engineering student at the University of Waterloo interested in a career in fullstack development.</p>
             </div>
         </div>
        
