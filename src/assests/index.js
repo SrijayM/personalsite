@@ -14,7 +14,8 @@ export { default as snake } from "./snake.png";
 export { default as gunter } from "./gunter.png";
 export { default as sql } from "./sql.png";
 export { default as django } from "./django.png";
-
+export { default as personalsite } from "./personalsite.png";
+export { default as employee } from "./employee.png";
 export { default as resume } from "./resumewebsite.pdf";
 
 
