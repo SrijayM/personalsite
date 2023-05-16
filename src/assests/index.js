@@ -12,6 +12,9 @@ export { default as matlab } from "./matlab.png";
 export { default as pintrest } from "./pintrest.png";
 export { default as snake } from "./snake.png";
 export { default as gunter } from "./gunter.png";
+export { default as sql } from "./sql.png";
+export { default as django } from "./django.png";
+
 export { default as resume } from "./resumewebsite.pdf";
 
 

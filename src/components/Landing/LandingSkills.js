@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { css, cplusplus, git, html, java, javascript, nodejs, react, tailwind, python, matlab } from "../../assests";
+import { css, cplusplus, git, html, java, javascript, nodejs, react, tailwind, python, matlab, sql,django } from "../../assests";
 export default function LandingSkills() {
 
   const proficientIn = [
@@ -18,6 +18,8 @@ export default function LandingSkills() {
 const semiPro = [
   { "image": python, name: "Python" },
   { "image": matlab, name: "MATLAB" },
+  { "image": sql, name: "SQL" },
+  { "image": django, name: "Django" },
 
 ];
 
