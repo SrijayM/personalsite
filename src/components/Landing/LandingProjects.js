@@ -17,7 +17,7 @@ export default function LandingProjects() {
         <a href="https://github.com/SrijayM/EmployeeAPI" className="hover:cursor-pointer bg-gray-200 h-[400px] w-full object-fit flex items-center justify-center relative">
           <img src={employee} className='w-3/4 h-auto'/>
           <div className="absolute bg-gray-200 h-full w-full opacity-0 transition-opacity ease-in ease-out duration-300 hover:opacity-90 flex justify-center items-center">
-            <p className="text-black font-bold">Employee Dashboard Manager (Python & React)</p> 
+            <div className='w-3/4'><p className="text-black font-bold">Employee Dashboard Manager (Python & React)</p></div> 
 
           </div> 
         </a>
