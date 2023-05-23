@@ -29,7 +29,7 @@ export default function LandingProjects() {
           </div> 
         </a>
         <a href="https://github.com/SrijayM/Snake" className="hover:cursor-pointer bg-gray-200 h-[400px] w-full object-fit flex items-center justify-center relative">
-          <img src={snake} className='w-3/4 h-auto'/>
+          <img src={snake} className='w-3/5 h-auto'/>
           <div className="absolute bg-gray-200 h-full w-full opacity-0 transition-opacity ease-in ease-out duration-300 hover:opacity-90 flex justify-center items-center text-center">
           <div className='w-3/4'><p className="text-black font-bold">Snake Game (Javascript)</p></div>
           </div> 
