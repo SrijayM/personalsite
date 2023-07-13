@@ -1,5 +1,6 @@
 export { default as css } from "./css.png";
 export { default as cplusplus } from "./cplusplus.png";
+export { default as c } from "./c.png";
 export { default as git } from "./git.png";
 export { default as html } from "./html.png";
 export { default as java } from "./java.png";
@@ -15,6 +16,8 @@ export { default as gunter } from "./gunter.png";
 export { default as sql } from "./sql.png";
 export { default as django } from "./django.png";
 export { default as personalsite } from "./personalsite.png";
+export { default as angular } from "./angular.png";
+export { default as youtubeapp } from "./youtubeapp.png";
 export { default as employee } from "./employee.png";
 export { default as resume } from "./resumewebsite.pdf";
 
