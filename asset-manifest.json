@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/personalsite/static/css/main.7529e3e4.css",
-    "main.js": "/personalsite/static/js/main.da651b84.js",
+    "main.css": "/personalsite/static/css/main.cf3bf947.css",
+    "main.js": "/personalsite/static/js/main.6c2293de.js",
     "static/js/787.71e672d5.chunk.js": "/personalsite/static/js/787.71e672d5.chunk.js",
     "static/media/youtubeapp.png": "/personalsite/static/media/youtubeapp.50bdc6dca91a4318a8d1.png",
     "static/media/pintrest.png": "/personalsite/static/media/pintrest.9c9eec5e3997ecee1194.png",
     "static/media/snake.png": "/personalsite/static/media/snake.b0015e664cb8d3e69fbe.png",
     "static/media/gunter.png": "/personalsite/static/media/gunter.8f1845d9b7a1da2619d1.png",
+    "static/media/ecommercefront.png": "/personalsite/static/media/ecommercefront.c37bb1efaa80b08e7ab0.png",
     "static/media/react.png": "/personalsite/static/media/react.8a6fc0a24a800d1e0f4a.png",
     "static/media/python.png": "/personalsite/static/media/python.52d7bb207f9868b90e39.png",
     "static/media/cplusplus.png": "/personalsite/static/media/cplusplus.5185ce2f4c945505ee4f.png",
-    "static/media/resumewebsite.pdf": "/personalsite/static/media/resumewebsite.be0d45e85fb88a67747e.pdf",
+    "static/media/resumewebsite.pdf": "/personalsite/static/media/resumewebsite.f8ab2e31a4e647d37515.pdf",
     "static/media/matlab.png": "/personalsite/static/media/matlab.2b608e94f8e1c2c9cd8e.png",
+    "static/media/ecommerceadmin.png": "/personalsite/static/media/ecommerceadmin.321dcb159178334b79ec.png",
     "static/media/java.png": "/personalsite/static/media/java.fdabd4e11f1235e4e8e0.png",
     "static/media/personalsite.png": "/personalsite/static/media/personalsite.756f0e13b96984ab4665.png",
     "static/media/tailwind.png": "/personalsite/static/media/tailwind.36b2728bf0d14b7b7576.png",
@@ -21,14 +23,15 @@
     "static/media/javascript.png": "/personalsite/static/media/javascript.ac9e504211b46cfb0118.png",
     "static/media/c.png": "/personalsite/static/media/c.bbbbbabc8c191bfb99bf.png",
     "static/media/nodejs.png": "/personalsite/static/media/nodejs.8f912e6eff277ae16489.png",
+    "static/media/sairyo.png": "/personalsite/static/media/sairyo.907d593ed189de254cfc.png",
     "static/media/logo.svg": "/personalsite/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/personalsite/index.html",
-    "main.7529e3e4.css.map": "/personalsite/static/css/main.7529e3e4.css.map",
-    "main.da651b84.js.map": "/personalsite/static/js/main.da651b84.js.map",
+    "main.cf3bf947.css.map": "/personalsite/static/css/main.cf3bf947.css.map",
+    "main.6c2293de.js.map": "/personalsite/static/js/main.6c2293de.js.map",
     "787.71e672d5.chunk.js.map": "/personalsite/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7529e3e4.css",
-    "static/js/main.da651b84.js"
+    "static/css/main.cf3bf947.css",
+    "static/js/main.6c2293de.js"
   ]
 }
