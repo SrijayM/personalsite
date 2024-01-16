@@ -1,29 +1,26 @@
 import React, { useState } from "react";
-import { css, cplusplus, git, html, java, javascript, nodejs, react, tailwind, python, matlab, sql,django, c, angular } from "../../assests";
+import { css, cplusplus, git, html, java, javascript, nodejs, react, tailwind, python, matlab, sql,django, c, angular, graphql, nextjs } from "../../assests";
 export default function LandingSkills() {
 
   const proficientIn = [
     { "image": javascript, name: "JavaScript"},
     { "image": react, name: "React.js" },
-    { "image": python, name: "Python" },
-    { "image": css, name: "CSS" },
-    { "image": cplusplus, name: "C++" },
-    { "image": tailwind, name: "Tailwind CSS" },
     { "image": angular, name: "Angular"},
-    { "image": java, name: "Java" },
-    { "image": c, name: "C" },
-    { "image": sql, name: "SQL" },
-    { "image": django, name: "Django" },
-    { "image": git, name: "Git" },
+    { "image": nextjs, name: "Next.js"},
     { "image": html, name: "HTML"},
+    { "image": css, name: "CSS" },
+    { "image": tailwind, name: "Tailwind CSS" },
+    {"image": graphql, name: "GraphQL"},
+    { "image": python, name: "Python" },
+    { "image": django, name: "Django" },
     { "image": nodejs, name: "Node.js" },
-    //{ "image": matlab, name: "MATLAB" },
-];
+    { "image": sql, name: "SQL" },
+    { "image": git, name: "Git" },
+    { "image": java, name: "Java" },
+    { "image": cplusplus, name: "C++" },
+    { "image": c, name: "C" },
+  ];
 
-const semiPro = [
-  
-
-];
 
   return (
     <div className='font-poppins xl:px-72 px-60 2xl:px-96 pb-24'> 

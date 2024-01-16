@@ -26,6 +26,9 @@ export { default as defaults } from "./default.png";
 export { default as zebra } from "./zebra.png";
 export { default as ecommercefront } from "./ecommercefront.png";
 export { default as ecommerceadmin } from "./ecommerceadmin.png";
+export { default as graphql } from "./graphql.png";
+export { default as nextjs } from "./nextjs.png";
+
 
 
 
