@@ -17,7 +17,7 @@ export default function LandingSkills() {
     { "image": git, name: "Git" },
     { "image": html, name: "HTML"},
     { "image": nodejs, name: "Node.js" },
-    { "image": matlab, name: "MATLAB" },
+    //{ "image": matlab, name: "MATLAB" },
 ];
 
 const semiPro = [
@@ -26,10 +26,10 @@ const semiPro = [
 ];
 
   return (
-    <div className='font-poppins px-72 2xl:px-96 pb-24'> 
+    <div className='font-poppins xl:px-72 px-60 2xl:px-96 pb-24'> 
         <div>
           <h1 className='text-2xl font-bold mb-8'>Proficient In.</h1>
-          <div className='grid-cols-5 grid gap-10'>
+          <div className='xl:grid-cols-5 grid-cols-4 grid gap-10'>
           {proficientIn.map((skills) =>( 
               <div className=' hover:cursor-pointer bg-gray-200 h-full w-full object-fit flex items-center justify-center relative'> 
                   <img src={skills.image} className='h-4/6'></img>

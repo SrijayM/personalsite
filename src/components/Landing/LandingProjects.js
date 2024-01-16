@@ -1,13 +1,28 @@
 import React from 'react'
-import { pintrest, snake, gunter, personalsite, employee, youtubeapp } from "../../assests";
+import { pintrest, snake, gunter, personalsite, employee, youtubeapp, ecommerceadmin, ecommercefront } from "../../assests";
 
 
 export default function LandingProjects() {
   return (
-    <div className='font-poppins px-72 2xl:px-96 pb-24'>
+    <div className='font-poppins px-60 xl:px-72 2xl:px-96 pb-24'>
       <h1 className='text-2xl font-bold mb-8'>Side Projects</h1>
       <div className='grid-cols-2 grid gap-10'>
-        <a href="https://srijay-youtube-app.netlify.app/" className="hover:cursor-pointer bg-gray-200 h-[400px] w-full object-fit flex items-center justify-center relative">
+        
+      <a href="https://github.com/SrijayM/ecommerce-front" className="hover:cursor-pointer bg-gray-200 h-[300px] xl:h-[400px] w-full object-fit flex items-center justify-center relative">
+          <img src={ecommercefront} className='w-3/4 h-auto'/>
+          <div className="absolute bg-gray-200 h-full w-full opacity-0 transition-opacity ease-in ease-out duration-300 hover:opacity-90 flex justify-center items-center text-center">
+            <p className="text-black font-bold"> Ecommerce Site (User)</p>
+          </div> 
+        </a>
+
+        <a href="https://github.com/SrijayM/ecommerce-admin" className="hover:cursor-pointer bg-gray-200 h-[300px] xl:h-[400px] w-full object-fit flex items-center justify-center relative">
+          <img src={ecommerceadmin} className='w-3/4 h-auto'/>
+          <div className="absolute bg-gray-200 h-full w-full opacity-0 transition-opacity ease-in ease-out duration-300 hover:opacity-90 flex justify-center items-center text-center">
+            <p className="text-black font-bold"> Ecommerce Site (Admin)</p>
+          </div> 
+        </a>
+
+        <a href="https://srijay-youtube-app.netlify.app/" className="hover:cursor-pointer bg-gray-200 h-[300px] xl:h-[400px] w-full object-fit flex items-center justify-center relative">
           <img src={youtubeapp} className='w-3/4 h-auto'/>
           <div className="absolute bg-gray-200 h-full w-full opacity-0 transition-opacity ease-in ease-out duration-300 hover:opacity-90 flex justify-center items-center text-center">
             <p className="text-black font-bold"> Youtube Clone (React)</p>
@@ -15,14 +30,14 @@ export default function LandingProjects() {
         </a>
 
        
-        <a href="https://github.com/SrijayM/personalsite" className="hover:cursor-pointer bg-gray-200 h-[400px] w-full object-fit flex items-center justify-center relative">
+        <a href="https://github.com/SrijayM/personalsite" className="hover:cursor-pointer bg-gray-200 h-[300px] xl:h-[400px] w-full object-fit flex items-center justify-center relative">
           <img src={personalsite} className='w-3/4 h-auto'/>
           <div className="absolute bg-gray-200 h-full w-full opacity-0 transition-opacity ease-in ease-out duration-300 hover:opacity-90 flex justify-center items-center text-center">
             <p className="text-black font-bold">This Website (React)</p>
           </div> 
         </a>
 
-        <a href="https://github.com/SrijayM/EmployeeAPI" className="hover:cursor-pointer bg-gray-200 h-[400px] w-full object-fit flex items-center justify-center relative">
+        <a href="https://github.com/SrijayM/EmployeeAPI" className="hover:cursor-pointer bg-gray-200 h-[300px] xl:h-[400px] w-full object-fit flex items-center justify-center relative">
           <img src={employee} className='w-3/4 h-auto'/>
           <div className="absolute bg-gray-200 h-full w-full opacity-0 transition-opacity ease-in ease-out duration-300 hover:opacity-90 flex justify-center items-center text-center">
             <div className='w-3/4'><p className="text-black font-bold">Employee Dashboard Manager (Python & React)</p></div> 
@@ -30,19 +45,21 @@ export default function LandingProjects() {
           </div> 
         </a>
 
-        <a href="https://github.com/SrijayM/pintrest-sm" className="hover:cursor-pointer bg-gray-200 h-[400px] w-full object-fit flex items-center justify-center relative">
+        <a href="https://github.com/SrijayM/pintrest-sm" className="hover:cursor-pointer bg-gray-200 h-[300px] xl:h-[400px] w-full object-fit flex items-center justify-center relative">
           <img src={pintrest} className='w-3/4 h-auto'/>
           <div className="absolute bg-gray-200 h-full w-full opacity-0 transition-opacity ease-in ease-out duration-300 hover:opacity-90 flex justify-center items-center text-center">
             <p className="text-black font-bold">Pintrest Clone (React)</p>
           </div> 
         </a>
-        <a href="https://github.com/SrijayM/Snake" className="hover:cursor-pointer bg-gray-200 h-[400px] w-full object-fit flex items-center justify-center relative">
+
+        {/** <a href="https://github.com/SrijayM/Snake" className="hover:cursor-pointer bg-gray-200 h-[400px] w-full object-fit flex items-center justify-center relative">
           <img src={snake} className='w-3/5 h-auto'/>
           <div className="absolute bg-gray-200 h-full w-full opacity-0 transition-opacity ease-in ease-out duration-300 hover:opacity-90 flex justify-center items-center text-center">
           <div className='w-3/4'><p className="text-black font-bold">Snake Game (Javascript)</p></div>
           </div> 
-        </a>
-        <a href="https://github.com/SrijayM/Run-Gunter-Run" className="hover:cursor-pointer bg-gray-200 h-[400px] w-full object-fit flex items-center justify-center relative">
+        </a>*/}
+
+        <a href="https://github.com/SrijayM/Run-Gunter-Run" className="hover:cursor-pointer bg-gray-200 h-[300px] xl:h-[400px] w-full object-fit flex items-center justify-center relative">
           <img src={gunter} className='w-3/4 h-auto'/>
           <div className="absolute bg-gray-200 h-full w-full opacity-0 transition-opacity ease-in ease-out duration-300 hover:opacity-90 flex justify-center items-center text-center">
             <p className="text-black font-bold">Obstacle Avoidance Game (Java)</p>

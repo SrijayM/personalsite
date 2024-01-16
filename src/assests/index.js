@@ -20,6 +20,13 @@ export { default as angular } from "./angular.png";
 export { default as youtubeapp } from "./youtubeapp.png";
 export { default as employee } from "./employee.png";
 export { default as resume } from "./resumewebsite.pdf";
+export { default as sairyo } from "./sairyo.png";
+export { default as andie } from "./andie.png";
+export { default as defaults } from "./default.png";
+export { default as zebra } from "./zebra.png";
+export { default as ecommercefront } from "./ecommercefront.png";
+export { default as ecommerceadmin } from "./ecommerceadmin.png";
+
 
 
 
