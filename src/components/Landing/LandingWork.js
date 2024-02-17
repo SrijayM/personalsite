@@ -6,14 +6,14 @@ export default function LandingWork() {
   const jobs = [
     {
       image: sairyo,
-      title: 'Software Developer',
+      title: 'Full Stack Developer',
       company: 'SAIRYO',
       date: 'September 2023 – December 2023',
       description: ""
     },
     {
       image: andie,
-      title: 'Software Engineer',
+      title: 'Software Developer',
       company: 'Andie Connected Technologies',
       date: 'January 2023 – April 2023',
       description: '',
