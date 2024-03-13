@@ -47,7 +47,8 @@ const projects =[
     tools: "Next.js, React.js, Styled Components, Stripe API ",
     image: ecommercefront,
     description: "This application is a full-stack customer-facing e-commerce site where users can purchase products listed through the admin panel. It allows users to view, add to a cart and purchase various assortments and quantities of products. The front end is built using Next.js and is styled using the styled component library. The data is fetched from a MongoDB backend where the JSON return is parsed and displayed. These products are displayed with all of their information along with a random feature product shown on the front page. Purchases are handled using Stripe API and the purchase data is stored in the MongoDB database. ",
-    githubLink: "https://github.com/SrijayM/ecommerce-front"
+    githubLink: "https://github.com/SrijayM/ecommerce-front",
+    videoLink: "https://www.youtube.com/watch?v=I7jtYYjxKgU"
   },
   {
     name: "Ecommerce Site (Admin)",
@@ -55,6 +56,7 @@ const projects =[
     description: "This application is a full-stack admin panel developed to manage an e-commerce website. The application allows users to primarily create, edit, delete and categorize various products. Each product can be customized with its own name, price, images, and description and can be put into categories to be shown with similar items. The admin panel has Google sign-in authentication, meaning only users of verified accounts can access and make changes within it. Users of the admin panel can also track orders made through the user-facing site with Stripe. The front end is built using Next.js and styled using Tailwind CSS. The back-end including all models, queries and mutations is built using Node.js. MongoDB is used as the database to store information and Amazon AWS is used to store images. ",
     githubLink: "https://github.com/SrijayM/ecommerce-admin",
     tools: "Next.js, React.js, Node.js, Tailwind CSS, Mongo DB, Amazon AWS",
+    videoLink: "https://www.youtube.com/watch?v=I7jtYYjxKgU"
   },
   {
     name: "Youtube Clone",
@@ -102,8 +104,8 @@ const projects =[
       <div className='grid-cols-2 grid gap-10'>
         
         {projects.map((projects, index) => (
-          <a onClick={()=>openModal(index)} className="hover:cursor-pointer bg-gray-200 h-[300px] xl:h-[400px] w-full object-fit flex items-center justify-center relative">
-              <img src={projects.image} className='w-3/4 h-auto'/>
+          <a onClick={()=>openModal(index)} className="hover:cursor-pointer shadow-xl h-[300px] xl:h-[400px] w-full object-fit flex items-center justify-center relative">
+              <img src={projects.image} className='w-3/4 h-auto border-2'/>
               <div className="absolute bg-gray-200 h-full w-full opacity-0 transition-opacity ease-in ease-out duration-300 hover:opacity-90 flex justify-center items-center text-center">
                 <p className="text-black font-bold"> {projects.name}</p>
               </div> 

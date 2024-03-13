@@ -26,12 +26,12 @@ export default function LandingSkills() {
     <div className='font-poppins xl:px-72 px-60 2xl:px-96 pb-24'> 
         <div>
           <h1 className='text-2xl font-bold mb-8'>Proficient In.</h1>
-          <div className='xl:grid-cols-5 grid-cols-4 grid gap-10'>
+          <div className='xl:grid-cols-7 grid-cols-5 grid gap-8'>
           {proficientIn.map((skills) =>( 
-              <div className=' hover:cursor-pointer bg-gray-200 h-full w-full object-fit flex items-center justify-center relative'> 
-                  <img src={skills.image} className='h-4/6'></img>
+              <div className=' hover:cursor-pointer skew-x-12 shadow-2xl h-full w-full object-fit flex items-center justify-center relative'> 
+                  <img src={skills.image} className='h-4/6 -skew-x-12'></img>
                   <div className="absolute bg-gray-200 h-full w-full opacity-0 transition-opacity ease-in ease-out duration-300 hover:opacity-90 flex justify-center items-center">
-                  <p className="text-black font-bold">{skills.name}</p>
+                  <p className="text-black font-bold -skew-x-12">{skills.name}</p>
                   </div> 
               </div>
           ))}
