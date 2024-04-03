@@ -28,7 +28,7 @@ export { default as ecommercefront } from "./ecommercefront.png";
 export { default as ecommerceadmin } from "./ecommerceadmin.png";
 export { default as graphql } from "./graphql.png";
 export { default as nextjs } from "./nextjs.png";
-
+export { default as aichatbot } from "./ai_chatbots.png";
 
 
 

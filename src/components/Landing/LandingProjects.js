@@ -1,5 +1,5 @@
 import React from 'react'
-import { pintrest, snake, gunter, personalsite, employee, youtubeapp, ecommerceadmin, ecommercefront } from "../../assests";
+import { aichatbot, pintrest, snake, gunter, personalsite, employee, youtubeapp, ecommerceadmin, ecommercefront } from "../../assests";
 
 import ReactDOM from 'react-dom';
 import Modal from 'react-modal';
@@ -57,6 +57,14 @@ const projects =[
     githubLink: "https://github.com/SrijayM/ecommerce-admin",
     tools: "Next.js, React.js, Node.js, Tailwind CSS, Mongo DB, Amazon AWS",
     videoLink: "https://www.youtube.com/watch?v=I7jtYYjxKgU"
+  },
+  {
+    name: "Ai-Chatbots",
+    image: aichatbot,
+    description: "This is a full-stack AI Companion website developed using Next.js with React, and styled with Tailwind CSS for dynamic, responsive user interfaces. The application features a subscription-based service model, integrated with Stripe for secure payment processing which allows users to create their own chatbots by paying. Prisma’s object-relational mapping capabilities, in conjunction with MySQL’s robust database management, are leveraged to provide a backend for the website. The incorporation of AI functionality from Replicate, allows users to interact with and create their own custom chatbots, offering a personalized and interactive user experience. Account creation is handled through Google using Clerk authentication.",
+    githubLink: "https://github.com/SrijayM/ai-chatbots",
+    tools: "Next.js, React.js, Tailwind CSS, Elephant SQL, Stripe, Prisma, Replicate API",
+    videoLink: "https://youtu.be/k-WOiunH_Qs"
   },
   {
     name: "Youtube Clone",
